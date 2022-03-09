@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    color: #000000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    min-width: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section-hero {
+    background-color: #FFF6ED;
+    padding: 60px 58px 42px 58px;
+    margin-bottom: 24px;
+}
+
+.hero-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-content {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-paragraph {
+    max-width: 375px;
+}
+
+.paragraph-header {
+    margin-top: 21px;
+    margin-bottom: 6px;
+    line-height: 40.85px;
+}
+
+.dedicated-word {
+    color: #FF7A00;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.services {
+    display: flex;
+    padding: 0 58px 60px 58px;
+    justify-content: space-between;
+}
+
+.services-paragraph {
+    flex: 1 600px;
+}
+
+.services-header {
+    line-height: 54.47px;
+    margin-bottom: 11px;
+    margin-top: 36px;
+}
+
+.services-text {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 592px;
+}
+
+.services-social {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 1 600px;
+    
+}
+
+.bg-ellipse {
+    position: absolute;
+    z-index: 0;
+}
+
+.services-social-first-stroke{
+
+    z-index: 1;
+    align-self: flex-end;
+    display: flex;
+    justify-self: center;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.services-social-second-stroke {
+    z-index: 2;
+    align-self: flex-end;
+    display: flex;
+    justify-self: center;
+}
+
+.services-social-icon {
+    margin-left: 90px;
+}
+
+.icon-slack {
+    margin-right: 90px;
+}
+
+
